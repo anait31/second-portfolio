@@ -99,6 +99,11 @@ nav a {
     padding: 200px 0;
 }
 
+.hero-container .btn-primary {
+    margin-top: 10px;
+    
+}
+
 .hero-items h3 {
     color: #474747;
     font-size: 45px;
@@ -230,7 +235,7 @@ footer {
     width: 60%;
 }
 
-.footer-items input, textarea{
+.footer-items input[type="text"], .footer-items input[type="email"],textarea{
     display: block;
     margin-bottom: 10px;
     width: 100%;
